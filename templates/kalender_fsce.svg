@@ -20,7 +20,7 @@
    <rect class="title bar" width="4208.481" height="242.1877" x="2.3662486" y="48.490898" id="rect7490" style="stroke-width:4.99745131;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"/>
 
     <text id="title" class="title" x="2104.2729" y="201.8224">FSI-Kalender 2015</text>
-    <text class="copyleft" id="copyleft" x="4175.9922" y="2900.9211">Lizenziert unter Creative-Commons BY-NC-SA 3; created with CalendRCreatR http://github.com/FSI-CE/CRCR auf Basis des CalendRCreatR von t_animal</text>
+    <text class="copyleft" id="copyleft" x="4175.9922" y="2900.9211">Generated with CalendRCreatR http://github.com/Timm638/CRCR</text>
 
     <rect class="month january" height="2543.0864" id="1" width="321.43689" x="37.133202" y="315.4843"/>
     <rect class="month february" height="2543.0864" id="2" width="321.43689" x="384.37683" y="315.4843"/>

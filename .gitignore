@@ -1,1 +1,4 @@
 outputCalendar.svg
+*.conf
+.idea
+templates

@@ -12,9 +12,7 @@ text {
 .birthdaytext {
 	font-family:Droid Sans;
 	fill-opacity:1;
-    /*stroke-width:.3px;*/
-	stroke:#CC0000;
-	fill:#CC0000;
+	fill:#101088;
 }
 
 .feiertagstext {
@@ -23,10 +21,7 @@ text {
 	fill:#000000;
 }
 
-.loscher {
-	font-family:Droid Sans;
-	fill:#FF9900;
-}
+
 
 .title{
 	fill-opacity:1;
@@ -38,9 +33,7 @@ text {
 
 .titlebar{
 	fill:#009900;
-	fill-opacity:1;
-	stroke:#009900;
-	stroke-opacity:1;
+	fill-opacity:0;
 }
 
 .copyleft{
@@ -53,20 +46,16 @@ text {
 	font-size:55px;
 	text-align:center;
 	text-anchor:middle;
-	font-family:Maya;
+	font-family:Droid Sans;
 }
 
 .month{
 	fill:none;
-	stroke:#000000;
-	stroke-width:0;
 	enable-background:accumulate
 }
 
 .day{
 	fill:none;
-	stroke:#000000;
-	stroke-width:1;
 	enable-background:accumulate
 }
 
@@ -75,9 +64,7 @@ text {
 }
 
 .nofill {
-	stroke:#000000;
 	fill-opacity:0;
-	stroke-width:1;
 }
 
 .daynumber{
@@ -88,87 +75,37 @@ text {
 
 .weekday{
 	fill-opacity:1;
-	stroke:#339900;
-	fill:#339900;
+	fill:#101088;
 	font-size:30px;
 }
 
-/*stammtisch*/
-.trunktable{
-	stroke-width:5;
-}
-
 .holiday{
-	fill-opacity:.08;
-	fill:#00CC00;
+	fill-opacity:.025;
+	fill:#0000FF;
 }
-
-.holidaymark{
-    fill:#008000;
-}
-
 
 .weekend{
-	fill-opacity:.2;
-	fill:#00CC00;
+	fill:#F0F0F0;
 }
 
 .holiday.weekend{
-	/*fill:#D0F0D0;*/
+	fill-opacity:1;
+	fill:#DFE8FF;
 }
 
-.test{
-	fill:#CC0000;
-}
-
-.birthday{
-	/*fill:#CC0000;*/
-}
-
-.birthdaymark{
-	stroke-width:0;
-	fill:#CC0000;
-}
-
-.birthday.weekend{
-	/*fill:#F0F000;*/
-}
-
-.birthday.holiday{
-	/*fill:#DFFFA0;*/
-}
-
-.birthday.holiday.weekend{
-	/*fill:#AFDF00;*/
+.pruefungmark{
+	fill:#660066;
+	fill-opacity:.7;
 }
 
 .bergmark{
 	fill:#003399;
 }
 
-.stammtischmark{
-	fill:#FF9900;
-}
-
-
 .sonstigesmark{
-	fill:#660066;
+        fill:#000080;
 }
 
 .fsimark{
-    fill:#FFFF00;
-}
-
-.pruefungmark{
-    fill:#FF9900;
-	fill-opacity:.7;
-
-}
-
-.termine.weekend{
-	/*fill:#FFB0B0;*/
-}
-
-.termine.birthday{
-	/*fill:#FFE090;*/
+	fill:#FFFF00;
 }
